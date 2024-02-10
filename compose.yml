@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  express:
+    build: ./Backend
+    ports:
+      - "8080:8080"
+
+  react:
+    build: ./Frontend/my-app
+    ports:
+      - "3000:3000"
