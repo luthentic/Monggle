@@ -5,8 +5,15 @@ services:
     build: ./Backend
     ports:
       - "8080:8080"
+    networks:
+      - app-network
 
   react:
     build: ./Frontend/my-app
     ports:
       - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
