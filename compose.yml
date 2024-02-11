@@ -3,17 +3,39 @@ version: "3.8"
 services:
   express:
     build: ./Backend
+    image: monggle-server
+    depends_on:
+      - mongo
+    volumes:
+      - ./Backend/:/usr/src/app
+      - /usr/src/app/node_modules
     ports:
       - "8080:8080"
+    env_file: ./Backend/.env
     networks:
       - app-network
 
+  mongo:
+    image: mongo
+    volumes:
+      - data-volume:/data/db
+    ports:
+      - "27017:27017"
+
   react:
     build: ./Frontend/my-app
+    image: monggle-client
     ports:
       - "3000:3000"
     networks:
       - app-network
 
+volumes:
+  data-volume:
+  node_modules:
+  web-root:
+    driver: local
+
 networks:
   app-network:
+    driver: bridge
