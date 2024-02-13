@@ -30,6 +30,25 @@ services:
     networks:
       - app-network
 
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx:/etc/nginx/conf.d # Ensure have a config file here
+    ports:
+      - "80:80" # Nginx will listen on port 80 and forward requests to React and Express
+    depends_on:
+      - express
+      - react
+    networks:
+      - app-network
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
+
 volumes:
   data-volume:
   node_modules:
