@@ -71,45 +71,12 @@
 
 **WEB:**
 
-**1. Interactive Lessons and Courses:**
-  - Provide structured lessons for different proficiency levels (beginner, intermediate, advanced).
-  - Include audio, video, and interactive exercises to engage users.
+1. User Profile
+2. Notification
+3. Create Posts
+4. Realtime Chat Rooms
     
-**2. Vocabulary Builder:**
-  - Offer a feature to learn and practice Korean vocabulary.
-  - Flashcards, quizzes, and spaced repetition techniques can enhance vocabulary retention.
     
-**3. Grammar Explanations and Exercises:**
-  - Break down Korean grammar rules and provide examples.
-  - Interactive exercises allow users to apply what they’ve learned.
-    
-**4. Language Exchange Platform:**
-  - Facilitate language exchange between users.
-  - Connect Korean learners with native speakers for conversation practice.
-    
-**5. Pronunciation Practice:**
-  - Include audio recordings of native speakers pronouncing words and phrases.
-  - Interactive pronunciation exercises can help users improve their accent.
-    
-**6. Cultural Insights:**
-  - Share information about Korean culture, customs, and etiquette.
-  - Users interested in understanding local culture will appreciate this feature.
-    
-**7. Real-Life Scenarios:**
-  - Create dialogues and scenarios relevant to daily life, travel, and work.
-  - Users can practice using Korean in practical situations.
-    
-**8. Listening Comprehension:**
-  - Offer audio clips with comprehension questions.
-  - Users can improve their listening skills by understanding spoken Korean.
-    
-**9. Reading Materials:**
-  - Curate articles, news, or short stories in Korean.
-  - Include translations and vocabulary explanations.
-    
-**10. Progress Tracking and Gamification:**
-  - Allow users to track their progress through lessons and quizzes.
-  - Gamify the learning experience with achievements, badges, or leaderboards.
 
 --- 
 
